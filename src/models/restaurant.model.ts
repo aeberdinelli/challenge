@@ -12,7 +12,7 @@ export interface Restaurant {
     address: {
         address1: string;
         address2?: string;
-        city: string;
+        city?: string;
         state: string;
         postalCode: string;
         coordinates: {
@@ -36,7 +36,7 @@ const RestaurantSchema = new Schema<Restaurant>({
     address: {
         address1: { type: String, required: true },
         address2: { type: String, required: false },
-        city: { type: String, required: true },
+        city: { type: String, required: false },
         state: { type: String, required: true },
         postalCode: { type: String, required: true },
         coordinates: {
