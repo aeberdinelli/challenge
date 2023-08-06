@@ -14,3 +14,8 @@
 ## Notes
 - I tried to type absolutely everything, taking advantage of some useful TS stuff such as `keyof`, `Omit`, `Partial` and generics.
 - I took the cities from the results and created a collection and endpoint to get them in order to use it in the frontend filters.
+
+## About me
+Check my other repos, I have some interesting stuff 🤓
+
+https://github.com/aeberdinelli
