@@ -5,8 +5,9 @@
 3. Run `npm run build` and `npm start`
 4. You can also run `npm run dev` to listen for changes and re-starting the app
 
-## Sample data
-If you need to fill the DB with sample data (recommended), run `npm run import`.
+## DB Setup
+1. If you haven't already, create a database in your MongoDB server. If you wish to use the provided `.env.dev` file, you can call it `challenge` and rename the file to `.env`.
+2. If you need to fill the DB with sample data (recommended), run `npm run import`.
 
 ## Stack
 - **MongoDB** data was already a huge json so that helped importing everything more easily, also this allows me to add features on the go without having to change database structure
